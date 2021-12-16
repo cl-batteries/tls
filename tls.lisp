@@ -17,7 +17,7 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/tls
+(defpackage :boost-tls
   (:use :cl :sb-alien :sb-ext :sb-gray :sb-sys)
   (:export
    #:init-openssl
@@ -26,7 +26,7 @@
    #:make-tls-stream
    #:with-tls-stream))
 
-(in-package :cl-batteries/tls)
+(in-package :boost-tls)
 
 ;;; ----------------------------------------------------
 
