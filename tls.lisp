@@ -41,7 +41,7 @@
 (defparameter *libcrypto*
   #+os-windows "libcrypto-1_1-x64"
   #+os-macosx "libcrypto.dylib"
-  #+linux "libcrypt.so"
+  #+linux "libcrypto.so"
   "Platform-specific crypto and BIO library for OpenSSL.")
 
 ;;; ----------------------------------------------------
